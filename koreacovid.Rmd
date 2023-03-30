@@ -62,4 +62,4 @@ fisher.test(table1)
 In Person's chi-squared test, we can see the total amount of people from each gender that caught COVID. 1817 females who caught the disease are alive, but 25 of them are dead. 44 males who caught the disease are deceased, but 1425 of them are alive. The counts expected by null show that slightly more females died to the disease and males died slightly less to it. The odds ratio is 2.3, which means males are more likely to die from COVID than females.
 
 ## Conclusions
-
+In summary, males died more to COVID-19 than females in Korea. Although the data shows only a small amount of people died to the disease, it was males that died the most than compared to females. The inferential data shows that the total amount of females that caught the disease are 1817, which is more than males by 392.So it's surprising that even with a bigger pool of females, males are the one that died the most.
