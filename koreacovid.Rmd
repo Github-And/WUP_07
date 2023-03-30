@@ -54,8 +54,12 @@ The row data shows the amount of females who caught COVID that are alive is 56% 
 
 ## Inferential results 
 
-
-
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+fisher.test(table1)
+```
+In Person's chi-squared test, we can see the total amount of people from each gender that caught COVID. 1817 females who caught the disease are alive, but 25 of them are dead. 44 males who caught the disease are deceased, but 1425 of them are alive. The counts expected by null show that slightly more females died to the disease and males died slightly less to it. The odds ratio is 2.3, which means males are more likely to die from COVID than females.
 
 ## Conclusions
 
