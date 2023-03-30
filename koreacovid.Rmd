@@ -44,7 +44,13 @@ According to the data, it seems more percentage of males have died more than fem
 
   
 ## Numerical results
+```{r}
+table1 <- xtabs(~result + sex, data=kRdata)
+rowPerc(table1)
+colPerc(table1)
+```
 
+The row data shows the amount of females who caught COVID that are alive is 56% and 44% of the males are alive. However; for males, it shows 64% of them who caught COVID are dead and 36% of females are deceased.
 
 ## Inferential results 
 
